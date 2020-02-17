@@ -1,1 +1,5 @@
-wayne-blog-news
+# Wayne Blog & News WordPress Theme
+Not published -> [https://wordpress.org/themes/wayne-blog-news/](https://wordpress.org/themes/wayne-blog-news/)
+Awaiting approval.
+# Screenshot
+![homepage](https://raw.githubusercontent.com/b3rkaydem1r/wayne-blog-news/master/screenshot.png)

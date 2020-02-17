@@ -1,0 +1,562 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Quicksand', sans-serif;
+}
+p{
+  font-family: 'PT Sans', sans-serif;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.85;
+}
+a{
+  text-decoration: none !important;
+  color: black;
+}
+a:hover{
+  color: crimson;
+}
+.widget-son-yazilar-h4{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: initial;
+}
+.widget-son-yazilar-h4:hover{
+  font-weight: 800;
+}
+li{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+.header-menu{
+    display: block;
+}
+/* Style all font awesome icons */
+.social .svg-inline--fa{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px !important;
+  }
+.social{
+    margin-top: -10px;
+}
+  .svg-inline--fa:hover {
+      opacity: 0.7;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
+  .single-h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: inherit;
+    line-height: initial;
+    font-size: 32px;
+    margin-top: auto;
+  }
+  .date{
+    font-size: 15px;
+    color: #5d738d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+  }
+body{
+    color: #222;
+    font-size: 16px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    line-height: 32px;
+}
+.thumb-post img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+.author{
+    color: #222;
+    font-size: 19px;
+    font-weight: inherit;
+    line-height: initial;
+    text-align: center;
+}
+.author:hover{
+    color: crimson;
+}
+.image-container {
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  height:100px;
+}
+.image-container img {
+    display:block;
+    width:100%;
+}
+.image-cut{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.wayne-tag{
+  float: left;
+  padding: 8px 20px;
+  margin: 0 8px 8px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  color: #5d738d;
+  background-color: #f4f6f8;
+}
+.header-menu-item{
+  padding: 8px 20px;
+  margin: 0 8px 8px 0;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 22px;
+  font-family: 'Mali', cursive;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.arama-yap{
+  font-size: 20px;
+}
+.wayne-tag:hover{
+  color: crimson;
+  background-color: #ecf1d5;
+}
+footer{
+  background-color: #f4f6f8;
+}
+.left-border{
+  border-left: 2px crimson solid;
+  padding-left: 10px;
+}
+.icerik-sirali{
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.icerik{
+  position:absolute;
+  bottom:0px;
+  color: white;
+  text-align: center;
+}
+.icerik-bilgileri{
+    visibility: hidden;
+    position:absolute;
+    top: 0px;
+    left: 50px;
+    font-weight: 700;
+    color: white;
+}
+.post-icons tr td{
+  padding-right: 30px;
+}
+.post-icons tr{
+  line-height: 20px !important; 
+}
+.icerik-h3{
+  background: crimson;
+  display: inline;
+  border-radius: 3px;
+
+}
+.icerik-h3-page{
+  background: crimson;
+  display: inline;
+  border-radius: 3px;
+  padding: 5px;
+  padding-top: 10px;
+}
+.icerik-h3-single{
+  background: crimson;
+  display: inline;
+  border-radius: 3px;
+  padding: 5px;
+  padding-top: 10px;
+}
+.icerik-sirali-h3{
+  background: crimson;
+  display: inline;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+.icerik-gorsel{
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.icerik:hover{
+  -webkit-transition: .8s ease-in-out;
+  transition: .8s ease-in-out;
+}
+.main-sirali-h3-header{
+  padding-top: 5px !important;
+  color: white;
+}
+.main-sirali-h3-header:hover{
+  color: white;
+}
+.main-h3-header{
+  color: white;
+}
+.main-h3-header:hover{
+  color: white;
+}
+.hover-post{
+  position:relative
+}
+.single-w{
+  font-family: 'Quicksand', sans-serif !important;
+  text-align: center;
+}
+.off {
+  display: none;
+}
+.chat_box .chat_message_wrapper ul.chat_message > li + li {
+  margin-top: 4px;
+}
+#search.open {
+  opacity: 1;
+  transform: translate(0px, 0px) scale(1, 1);
+}
+#search {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  z-index: 2000;
+}
+#search .close {
+  color: #be5254;
+  font-size: 40px;
+  opacity: 1;
+  padding: 10px 17px;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+}
+button.close {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  cursor: pointer;
+}
+.close {
+  float: right;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#search input[type="text"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 0 none;
+  color: white;
+  font-family: "Open Sans",sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin: -51px auto 0;
+  outline: medium none;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  
+}
+#search input[type="text"]::placeholder{
+  color: white;
+} 
+#search .btn {
+  left: 50%;
+  margin-top: 60px;
+  padding: 10px 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+nav {
+  background: #be5254 none repeat scroll 0 0 !important;
+  border: medium none !important;
+  border-radius: 151px !important;
+}
+.s-icon a {
+  background: #fff none repeat scroll 0 0 !important;
+  border-radius: 40px !important;
+  color: #be5254 !important;
+  font-size: 26px;
+  height: 44px;
+  margin: 3px -12px 0 0;
+  padding: 7px 0 0 !important;
+  text-align: center;
+  width: 44px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand {
+  background: #fff none repeat scroll 0 0 !important; 
+  border-radius: 50px;
+   color: #be5254 !important;
+  height: auto;
+  margin: 3px 0 2px -12px !important;
+  padding: 12px 20px !important;
+}
+.btn-lg, .btn-group-lg > .btn {
+  border-radius: 153px;
+  font-size: 29px;
+}
+.btn-site {
+  background: #be5254 none repeat scroll 0 0;
+  color: #fff !important;
+}
+.wayne_loadmore{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing:1px;
+	cursor:pointer;
+	text-transform: uppercase;
+	padding: 10px 0;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;  
+}
+.wayne_loadmore:hover{
+	background-color: crimson;
+	color: #fff;
+}
+.wp-block-quote cite, .wp-block-quote p{
+  font-family: 'Quicksand', sans-serif;
+  word-wrap: break-word;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.wp-block-quote p{
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.rights-reserved{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+}
+.wayne_contact{
+  font-family: 'Quicksand', sans-serif;
+  color: crimson;
+  font-size: 1.2em;
+}
+.wayne_contact:hover{
+  color: crimson;
+}
+.page-news-type-h3{
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.page-news-type-p{
+  text-align: justify;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+.yorum-fotografi{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.wayne-category{
+  float: right;
+  padding: 8px 20px;
+  margin: 0 8px 8px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 22px;
+}
+.icerik-single{
+  color: white;
+  text-align: center;
+}
+.row-no-margin {
+  margin-bottom: -50px;
+} 
+.next-prev-page{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+.menu-dropdown{
+  font-family: 'Mali', cursive;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.cursor-none{
+  cursor: default;
+}
+.wayne-comment{
+  font-weight: 400;
+  font-size: 18px;
+}
+#wayne-blogname{
+  display: inline-block;
+}
+
+#wayne-blogdescription{
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-h3-header-in-single{
+    line-height: 1.7;
+  }
+  .icerik-h3-single{
+    background: crimson;
+    border-radius: 3px;
+    padding: 5px;
+    
+  }
+  .icerik-single{
+    margin-top: 15px !important;
+  }
+  .wayne-logo-div{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .main-h3-header{
+    font-size: 2.5rem;
+  }
+  .icerik-h3{
+    padding: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 8px;
+  }
+  .wayne-logo{
+    position:absolute;
+    top: 65px;
+  }
+}

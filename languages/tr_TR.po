@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wayne\n"
+"POT-Creation-Date: 2020-02-06 11:37+0300\n"
+"PO-Revision-Date: 2020-02-06 11:41+0300\n"
+"Language-Team: https://berkaydemir.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"Last-Translator: \n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+
+#: inc/wayne-menu.php:6
+msgid "Header Menu"
+msgstr "Üst Menü"
+
+#: inc/wayne-menu.php:7
+msgid "Mobile Menu"
+msgstr "Mobil Menü"
+
+#: inc/wayne-widgets.php:10
+msgid "Wayne Latest Posts"
+msgstr "Wayne Son Gönderiler"
+
+#: inc/wayne-widgets.php:11
+msgid "Latest posts on your Website"
+msgstr "Web sitenizdeki en son gönderiler"
+
+#: inc/wayne-widgets.php:69
+msgid "Latest Posts"
+msgstr "Son Gönderiler"
+
+#: inc/wayne-widgets.php:76 inc/wayne-widgets.php:160 inc/wayne-widgets.php:287
+#: inc/wayne-widgets.php:419
+msgid "Title:"
+msgstr "Başlık:"
+
+#: inc/wayne-widgets.php:78
+msgid "Number of posts:"
+msgstr "Gönderi sayısı:"
+
+#: inc/wayne-widgets.php:108
+msgid "Wayne Tags"
+msgstr "Wayne Etiketler"
+
+#: inc/wayne-widgets.php:109
+msgid "Tags on your Website"
+msgstr "Gönderilerde bulunan etiketler"
+
+#: inc/wayne-widgets.php:153
+msgid "Tags"
+msgstr "Etiketler"
+
+#: inc/wayne-widgets.php:162
+msgid "Number of tags:"
+msgstr "Etiket sayısı:"
+
+#: inc/wayne-widgets.php:191
+msgid "Wayne Contact"
+msgstr "Wayne İletişim"
+
+#: inc/wayne-widgets.php:192
+msgid "Contact Details"
+msgstr "İletişim Detayları"
+
+#: inc/wayne-widgets.php:268
+msgid "Contact"
+msgstr "İletişim"
+
+#: inc/wayne-widgets.php:289
+msgid "Location"
+msgstr "Konum"
+
+#: inc/wayne-widgets.php:291
+msgid "Location URL"
+msgstr "Konum URL'si"
+
+#: inc/wayne-widgets.php:293
+msgid "E-Mail"
+msgstr "E-posta"
+
+#: inc/wayne-widgets.php:295
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/wayne-widgets.php:327
+msgid "Wayne Social Media"
+msgstr "Wayne Sosyal Medya"
+
+#: inc/wayne-widgets.php:328
+msgid "Social Media Icons"
+msgstr "Sosyal Medya Simgeleri"
+
+#: inc/wayne-widgets.php:392
+msgid "Social Media"
+msgstr "Sosyal Medya"
+
+#: search.php:14
+#, php-format
+msgid "Results for: %s"
+msgstr "%s için arama sonuçları:"
+
+#: template-parts/comments/wordpress-comments.php:20
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr "Bir sonraki yorumumda kullanmak üzere isim, e-posta ve website bilgilerimi tarayıcımda sakla."
