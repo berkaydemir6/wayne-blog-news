@@ -22,7 +22,7 @@ else{
        <div class="thumb-post">
             <p class="date text-center mt-1"><img class="img-fluid" src="<?php $user_id =  get_the_author_meta( 'ID' );
             echo get_avatar_url( get_the_author_meta( 'ID' ) , 32 ); ?>" alt="Profile Photo"/></p>
-                <h3 class="text-center"><a href="#" class="author"><?php the_author_posts_link(); ?></a></h3>
+                <h3 class="text-center"><a href="#" class="wayne-author"><?php the_author_posts_link(); ?></a></h3>
                 <div class="text-center">
                 <div class="btn-group social my-2" role="group" aria-label="Social Media">
 		<?php 
