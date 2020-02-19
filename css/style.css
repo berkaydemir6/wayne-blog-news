@@ -185,14 +185,14 @@ body{
     width: 100px;
     height: 100px;
   }
-.author{
+.wayne-author{
     color: #222;
     font-size: 19px;
     font-weight: inherit;
     line-height: initial;
     text-align: center;
 }
-.author:hover{
+.wayne-author:hover{
     color: crimson;
 }
 .image-container {
