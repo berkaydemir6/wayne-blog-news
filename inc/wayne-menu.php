@@ -128,6 +128,9 @@ function wayne_mobile_menu() {
 		if(in_array($menu_color, $colorful_list) || in_array($menu_color, $color_list)){
 			$menu_color_check = true;
 		}
+		else{
+			$menu_color_check = false;
+		}
 		foreach ((array) $menu_items as $key => $menu_item) {
 			if($menu_color_check){
 				$color = $menu_color;

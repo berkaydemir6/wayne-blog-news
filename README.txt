@@ -3,8 +3,8 @@ Contributors: berkaydemir
 Donate link: berkaydemir.com
 Tags: wayne theme, wayne wordpress theme, colorful blog theme, customizable theme, blog theme, news wheme, minimal, cool, colorful
 Requires at least: 3.0.1
-Tested up to: 5.2.4
-Stable tag: 1.1.2
+Tested up to: 5.3.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Demo: https://wayne.berkaydemir.com/
@@ -33,6 +33,9 @@ https://wayne.berkaydemir.com/documentation/
 It will be available soon.
 
 == Changelog ==
+
+= 1.1.3 =
+* Fixed issue -> Menu color check variable
 
 = 1.1.2 =
 * Fixed issue -> Wordpress to -> WordPress
