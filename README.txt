@@ -4,7 +4,7 @@ Donate link: berkaydemir.com
 Tags: wayne theme, wayne wordpress theme, colorful blog theme, customizable theme, blog theme, news wheme, minimal, cool, colorful
 Requires at least: 3.0.1
 Tested up to: 5.3.1
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Demo: https://wayne.berkaydemir.com/
@@ -34,25 +34,8 @@ It will be available soon.
 
 == Changelog ==
 
-= 1.1.4 =
-* Fixed issue -> Menu color check variable
-
-= 1.1.3 =
-* Fixed issue -> Menu color check variable
-
-= 1.1.2 =
-* Fixed issue -> Wordpress to -> WordPress
-
-= 1.1.1 =
-* Fixed issue -> tag and category pages.
-
-= 1.1 =
-* Fixed issue #comments/wordpress-comments.php translation fix.
-* Fixed issue #functions.php theme slug added to function name.
-* Fixed issue #wayne.pot updated.
-* Fixed issue #single.php sidebar updated.
-* Fixed issue #style.css Theme Demo URL updated.
-* Fixed issue #README.txt License added.
+= 1.1.5 =
+* Fix Update
 
 = 1.0 =
 * First version of the Theme.

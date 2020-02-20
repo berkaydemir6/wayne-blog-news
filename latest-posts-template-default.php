@@ -6,18 +6,9 @@
 
     if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-        if($post_i == $post_sayisi){
-
-            break;
-
-    }
-
 ?>
 
-
-
 <div class="col-12 col-md-6 my-md-3">
-
 
 
 <a href="<?php the_permalink(); ?>"><img src="<?php if ( has_post_thumbnail() ) {
