@@ -1,6 +1,6 @@
 # Wayne Blog & News WordPress Theme
-Not published -> [https://wordpress.org/themes/wayne-blog-news/](https://wordpress.org/themes/wayne-blog-news/)
-Awaiting approval.<br>
+Download -> [https://codeload.github.com/b3rkaydem1r/wayne-blog-news/zip/master](https://codeload.github.com/b3rkaydem1r/wayne-blog-news/zip/master)
+<br>
 ## Screenshot
 ![homepage](https://raw.githubusercontent.com/b3rkaydem1r/wayne-blog-news/master/screenshot.png)
 ## Demo
