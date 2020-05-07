@@ -1,6 +1,6 @@
 <?php if(!empty($post->post_password)) : ?>
   	<?php if($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) : ?>
-		<p>This post is password protected. Enter the password to view comments.</p>
+		<p><?php echo __('This post is password protected. Enter the password to view comments.', 'wayne-blog-news') ?></p>
   	<?php endif; ?>
 <?php endif; ?>
 
@@ -9,7 +9,7 @@
     	<?php foreach($comments as $comment) : ?>
   		<div id="comment-<?php comment_ID(); ?>">
   			<?php if ($comment->comment_approved == '0') : ?>
-  				<p>Your comment is awaiting approval</p>
+  				<p><?php echo __('Your comment is awaiting approval', 'wayne-blog-news') ?></p>
   			<?php endif; ?>
               <div class="row my-3">
                     <div class="col-3">
@@ -41,7 +41,7 @@
 	</ul>
   <hr>
 <?php else : ?>
-	<p>No comments yet</p>
+	<p><?php echo __('No comments yet', 'wayne-blog-news') ?></p>
 <?php endif; ?>
 
 <?php if(comments_open()) : ?>
@@ -50,24 +50,24 @@
 			<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
   
 			<?php if($user_ID) : ?>
-				<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></p>
+				<p><?php echo __('Logged in as', 'wayne-blog-news') ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Log out &raquo;</a></p>
 	<?php else : ?>
 <div class="form-group row">
-    <label for="author" class="col-sm-2 col-form-label">Name <small><?php if($req) echo "(required)"; ?></small></label>
+    <label for="author" class="col-sm-2 col-form-label"><?php echo __('Name', 'wayne-blog-news') ?> <small><?php if($req) echo "(required)"; ?></small></label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="author" id="author">
     </div>
   </div>
 
   <div class="form-group row">
-    <label for="staticEmail" class="col-sm-2 col-form-label">Email <small><?php if($req) echo "(required)"; ?></small></label>
+    <label for="staticEmail" class="col-sm-2 col-form-label"><?php echo __('Email', 'wayne-blog-news') ?> <small><?php if($req) echo "(required)"; ?></small></label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="email" id="email" placeholder="email@example.com" value="<?php echo $comment_author_email; ?>">
     </div>
   </div>
   <?php endif; ?>
   <div class="form-group">
-    <label for="comment">Comment</label>
+    <label for="comment"><?php echo __('Comment', 'wayne-blog-news') ?></label>
     <textarea class="form-control" name="comment" id="comment" rows="5"></textarea>
   </div>
 
@@ -79,5 +79,5 @@
 		</form>
 	<?php endif; ?>
 <?php else : ?>
-	<p>The comments are closed.</p>
+	<p><?php echo __('The comments are closed.', 'wayne-blog-news') ?></p>
 <?php endif; ?>

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Wayne Blog & News\n"
-"POT-Creation-Date: 2020-02-11 18:29+0300\n"
+"POT-Creation-Date: 2020-04-18 12:36+0300\n"
 "PO-Revision-Date: 2020-01-25 15:36+0300\n"
 "Last-Translator: \n"
 "Language-Team: https://berkaydemir.com\n"
@@ -105,6 +105,46 @@ msgstr ""
 #: search.php:14
 #, php-format
 msgid "Results for: %s"
+msgstr ""
+
+#: search.php:47
+msgid "Oooops. We didn't found what you search."
+msgstr ""
+
+#: search.php:48
+msgid "You should try searching using different words."
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:12
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:44
+msgid "No comments yet"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:53
+msgid "Logged in as"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:56
+msgid "Name"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:63
+msgid "Email"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:70
+msgid "Comment"
+msgstr ""
+
+#: template-parts/comments/wayne-comments.php:82
+msgid "The comments are closed."
 msgstr ""
 
 #: template-parts/comments/wordpress-comments.php:20

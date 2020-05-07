@@ -42,9 +42,10 @@ else{
         }
     }else{
 ?>
-        <h2 style='color:#000'>Oooops. We didn't found what you search.</h2>
+        
         <div class="alert alert-info mt-3">
-          <p class="mt-2">You should try searching using different words.</p>
+        <h2 style='color:#000'><?php echo __('Oooops. We didn\'t found what you search.', 'wayne-blog-news') ?></h2>
+          <p class="mt-2"><?php echo __('You should try searching using different words.', 'wayne-blog-news') ?></p>
         </div>
 <?php }  ?>
 

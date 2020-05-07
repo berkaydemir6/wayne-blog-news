@@ -2,9 +2,10 @@
 Contributors: berkaydemir
 Donate link: berkaydemir.com
 Tags: wayne theme, wayne wordpress theme, colorful blog theme, customizable theme, blog theme, news wheme, minimal, cool, colorful
-Requires at least: 3.0.1
-Tested up to: 5.3.1
-Stable tag: 1.1.5
+Requires at least: 5.0.0
+Tested up to: 5.4
+Stable tag: 1.2
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Demo: https://wayne.berkaydemir.com/
